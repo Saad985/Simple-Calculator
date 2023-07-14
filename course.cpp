@@ -32,5 +32,5 @@ int main()
         cout<<"sum = "<<num1 <<"+ "<<num2<<"= "<<sum<<endl;
     }
     
-
+return 0;
 }
