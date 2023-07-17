@@ -11,6 +11,8 @@ int main()
     int val;
 
     //dislpaying menu
+    for(int i=0;i<=100;i++)
+    {
     cout<<"enter number to calculate"<<endl;
     cout<<"enter 1 to add two values "<<endl;
     cout<<"enter 2 to subtract two values "<<endl;
@@ -31,6 +33,15 @@ int main()
         sum=num1+num2;
         cout<<"sum = "<<num1 <<"+ "<<num2<<"= "<<sum<<endl;
     }
-    
+        else if(val==2)
+    {
+        cout<<"enter the value you want to subtract from the other ";
+        cin>>num1>>num2;
+        cout<<"num1 = "<<num1<<endl;
+        cout<<"num2 = "<<num2<<endl;
+        subtract=num1-num2;
+        cout<<"subtract = "<<num1 <<"- "<<num2<<"= "<<subtract<<endl;
+    }
+    }
 return 0;
 }
