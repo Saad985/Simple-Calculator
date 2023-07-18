@@ -33,7 +33,7 @@ int main()
         sum=num1+num2;
         cout<<"sum = "<<num1 <<"+ "<<num2<<"= "<<sum<<endl;
     }
-        else if(val==2)
+    else if(val==2)
     {
         cout<<"enter the value you want to subtract from the other ";
         cin>>num1>>num2;
@@ -41,6 +41,15 @@ int main()
         cout<<"num2 = "<<num2<<endl;
         subtract=num1-num2;
         cout<<"subtract = "<<num1 <<"- "<<num2<<"= "<<subtract<<endl;
+    }
+    else if(val==3)
+    {
+        cout<<"enter the values you want to multiply with each other ";
+        cin>>num1>>num2;
+        cout<<"num1 = "<<num1<<endl;
+        cout<<"num2 = "<<num2<<endl;
+        multiply=num1*num2;
+        cout<<"multiply = "<<num1 <<"* "<<num2<<"= "<<multiply<<endl;
     }
     }
 return 0;
