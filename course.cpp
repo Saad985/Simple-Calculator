@@ -60,6 +60,11 @@ int main()
         divide=num1/num2;
         cout<<"divide = "<<num1 <<"/ "<<num2<<"= "<<divide<<endl;
     }
+    else
+    {
+        cout<<"you have entered wrong choice of value.the calculator has quit."<<endl;
+        break;
+    }
     }
 return 0;
 }
