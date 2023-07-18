@@ -51,6 +51,15 @@ int main()
         multiply=num1*num2;
         cout<<"multiply = "<<num1 <<"* "<<num2<<"= "<<multiply<<endl;
     }
+    else if(val==4)
+    {
+        cout<<"enter the values you want to divide with each other ";
+        cin>>num1>>num2;
+        cout<<"num1 = "<<num1<<endl;
+        cout<<"num2 = "<<num2<<endl;
+        divide=num1/num2;
+        cout<<"divide = "<<num1 <<"/ "<<num2<<"= "<<divide<<endl;
+    }
     }
 return 0;
 }
